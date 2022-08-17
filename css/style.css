@@ -1,0 +1,36 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-inner{
+ height: 900px;
+}
+
+.productoAnim {
+    animation-name: productos;
+    animation-duration: 3s;
+}
+
+@keyframes productos {
+    from  {
+       transform: translateX(1000px)
+    }
+    to {
+       transform: translateX(0px);
+    }
+}
+
+.categoriaAnim {
+    animation-name: categoria;
+    animation-duration: 3s;
+}
+
+@keyframes categoria {
+    from  {
+       transform: translateX(-1000px)
+    }
+    to {
+       transform: translateX(0px);
+    }
+}
