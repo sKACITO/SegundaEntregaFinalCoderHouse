@@ -37,15 +37,19 @@
 
 li:hover {
     background-color: #BBB6B6;
-    border-left: solid 10px #E5A060
+    border-left: solid 7px #f0c993;
     }
 
     /* TRANSICION CATEGORIAS LATERAL */
 .liTransicion {
     transition: width 5s height 5s;
-    background-image: linear-gradient(to left, #BBB6B6, #282426 60%);
+    background-image: linear-gradient(to left, #BBB6B6, #ffffff2e 60%);
 }
 
 .liTransicion:hover {
     width: 70%;
+}
+
+.card {
+    margin: 50px;
 }
